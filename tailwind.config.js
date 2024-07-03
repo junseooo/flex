@@ -21,11 +21,15 @@ module.exports = {
         ],
       },
       fontSize: {
+        "11px": ["11px", "1.2em"],
         "15px": ["15px", "20.25px"],
         "17px": ["17px", "23.8px"],
         "28px": ["28px", "33.6px"],
         "40px": "40px",
         "44px": ["44px", "49px"],
+      },
+      fontWeight: {
+        550: "550",
       },
       width: {
         "220px": "220px",
@@ -55,17 +59,24 @@ module.exports = {
           "linear-gradient(rgba(238, 245, 255, 0), rgba(238, 242, 255, 1))",
       },
       textColor: {
+        "banner-notice": "rgb(0, 153, 255)",
+        "banner-notice-content": "#eeeeee",
         "section-1-button": "rgb(85, 99, 114)",
         "section-3-title": "rgb(139, 149, 161)",
         "section-3-content": "rgb(36, 42, 48)",
         "section-3-link": "rgb(59, 134, 200)",
       },
       colors: {
+        banner: "#242a30",
+        "banner-notice": "rgb(210, 234, 253)",
         "section-2": "#FAFAFA",
       },
       boxShadow: {
         "custom-shadow":
           "rgba(0, 0, 0, 0.02) 0px 2px 6px, rgba(0, 0, 0, 0.06) 0px -1px 0px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px inset",
+      },
+      height: {
+        "55px": "55px",
       },
     },
   },
