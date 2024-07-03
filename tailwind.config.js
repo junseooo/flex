@@ -32,10 +32,15 @@ module.exports = {
         550: "550",
       },
       width: {
+        "22px": "22px",
         "220px": "220px",
       },
       minWidth: {
         "220px": "220px",
+      },
+      height: {
+        "55px": "55px",
+        "60px": "60px",
       },
       borderRadius: {
         "48px": "48px",
@@ -47,6 +52,7 @@ module.exports = {
         "114px": "114px",
       },
       padding: {
+        "15px": "15px",
         "60px": "60px",
         "75px": "75px",
         "87px": "87px",
@@ -74,9 +80,6 @@ module.exports = {
       boxShadow: {
         "custom-shadow":
           "rgba(0, 0, 0, 0.02) 0px 2px 6px, rgba(0, 0, 0, 0.06) 0px -1px 0px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px inset",
-      },
-      height: {
-        "55px": "55px",
       },
     },
   },
