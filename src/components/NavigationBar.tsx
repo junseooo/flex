@@ -9,7 +9,7 @@ export default function NavigationBar() {
                 NOTICE
               </div>
               <span className="flex items-center text-banner-notice-content text-15px font-550">
-                연차 촉진 제도, 100% 확신 제도
+                연차 촉진 제도, 100% 자동화하기
               </span>
             </div>
             <div>image</div>
