@@ -30,6 +30,7 @@ module.exports = {
         "17px": ["17px", "23.8px"],
         "28px": ["28px", "33.6px"],
         "section-4-28px": ["28px", "1.2"],
+        "section-5-36px": ["36px", "43.2px"],
         "40px": "40px",
         "44px": ["44px", "49px"],
       },
@@ -71,6 +72,7 @@ module.exports = {
         "34px": "34px",
         "60px": "60px",
         "114px": "114px",
+        "50%": "50%",
       },
       padding: {
         "15px": "15px",
@@ -79,6 +81,7 @@ module.exports = {
         "87px": "87px",
         "100px": "100px",
         "110px": "110px",
+        "140px": "140px",
       },
       backgroundImage: {
         "button-gradient":
@@ -123,7 +126,7 @@ module.exports = {
   plugins: [
     function ({ addUtilities }) {
       const newUtilities = {
-        ".text-gradient": {
+        ".section-1-text-gradient": {
           background:
             "linear-gradient(104.21deg, #5f79d6 -4.26%, #405ece -4.25%, #7f6cf4 105.18%)",
           "-webkit-background-clip": "text",
@@ -132,6 +135,17 @@ module.exports = {
       };
 
       addUtilities(newUtilities, ["responsive", "hover"]);
+    },
+    function ({ addUtilities }) {
+      addUtilities({
+        ".section-5-text-gradient": {
+          "background-image":
+            "linear-gradient(96.77deg, rgb(249, 106, 25) -0.96%, rgb(251, 96, 189) 100%)",
+          "-webkit-background-clip": "text",
+          "background-clip": "text",
+          color: "transparent",
+        },
+      });
     },
   ],
 };

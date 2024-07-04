@@ -5,7 +5,7 @@ export function Section1() {
         <div className="flex flex-col flex-nowrap justify-start items-center gap-30px">
           <div className="flex flex-col flex-nowrap justify-start items-center gap-3">
             <div>
-              <span className="font-extrabold text-40px text-gradient">
+              <span className="font-extrabold text-40px section-1-text-gradient">
                 <span className="font-extrabold text-44px mr-1">flex</span>는
                 팀이다
               </span>
