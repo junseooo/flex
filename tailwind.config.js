@@ -22,6 +22,7 @@ module.exports = {
       },
       fontSize: {
         "11px": ["11px", "1.2em"],
+        "12px": ["12px", "21.6px"],
         "15px": ["15px", "20.25px"],
         "17px": ["17px", "23.8px"],
         "28px": ["28px", "33.6px"],
@@ -33,20 +34,31 @@ module.exports = {
       },
       width: {
         "22px": "22px",
+        "120px": "120px",
+        "200px": "200px",
         "220px": "220px",
+        "30%": "30%",
+      },
+      maxWidth: {
+        "1110px": "1110px",
       },
       minWidth: {
         "220px": "220px",
       },
       height: {
+        "38px": "38px",
+        "42px": "42px",
         "55px": "55px",
         "60px": "60px",
       },
       borderRadius: {
+        "10px": "10px",
         "48px": "48px",
       },
       spacing: {
+        "18px": "18px",
         "20.5px": "20.5px",
+        "25px": "25px",
         "30px": "30px",
         "60px": "60px",
         "114px": "114px",
@@ -75,11 +87,20 @@ module.exports = {
       colors: {
         banner: "#242a30",
         "banner-notice": "rgb(210, 234, 253)",
-        "section-2": "#FAFAFA",
+        "section-2-our-company": "#70afdb",
+        "section-2-our-company-bg": "#f6fbfe",
+        "section-2-our-company-text": "rgb(28, 89, 146)",
+        "section-3": "#FAFAFA",
       },
       boxShadow: {
         "custom-shadow":
           "rgba(0, 0, 0, 0.02) 0px 2px 6px, rgba(0, 0, 0, 0.06) 0px -1px 0px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px inset",
+      },
+      flex: {
+        "0-0-30": "0 0 30%",
+      },
+      scale: {
+        0.6: "0.6",
       },
     },
   },
