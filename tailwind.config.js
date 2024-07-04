@@ -26,8 +26,10 @@ module.exports = {
         "13px": ["13px", "19.5px"],
         "15px": ["15px", "20.25px"],
         "section-3-15px": ["15px", "19.5px"],
+        "section-4-15px": ["15px", "2"],
         "17px": ["17px", "23.8px"],
         "28px": ["28px", "33.6px"],
+        "section-4-28px": ["28px", "1.2"],
         "40px": "40px",
         "44px": ["44px", "49px"],
       },
@@ -53,6 +55,7 @@ module.exports = {
         "42px": "42px",
         "55px": "55px",
         "60px": "60px",
+        "100px": "100px",
         "255px": "255px",
       },
       borderRadius: {
@@ -65,6 +68,7 @@ module.exports = {
         "20.5px": "20.5px",
         "25px": "25px",
         "30px": "30px",
+        "34px": "34px",
         "60px": "60px",
         "114px": "114px",
       },
@@ -74,6 +78,7 @@ module.exports = {
         "75px": "75px",
         "87px": "87px",
         "100px": "100px",
+        "110px": "110px",
       },
       backgroundImage: {
         "button-gradient":
@@ -88,6 +93,8 @@ module.exports = {
         "section-3-title": "rgb(139, 149, 161)",
         "section-3-content": "rgb(36, 42, 48)",
         "section-3-link": "rgb(59, 134, 200)",
+        "section-4-title": "rgb(31, 46, 61)",
+        "section-4-content": "rgb(141, 150, 161)",
       },
       colors: {
         banner: "#242a30",
@@ -107,6 +114,9 @@ module.exports = {
       },
       scale: {
         0.6: "0.6",
+      },
+      letterSpacing: {
+        "section-4": "-.01em",
       },
     },
   },
