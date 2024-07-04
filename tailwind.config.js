@@ -114,6 +114,7 @@ module.exports = {
         "section-2-our-company-text": "rgb(28, 89, 146)",
         "section-3": "#FAFAFA",
         "section-3-manager": "#8d96a1",
+        "section-6": "#ead8bf",
       },
       boxShadow: {
         "custom-shadow":
@@ -122,6 +123,7 @@ module.exports = {
       flex: {
         "0-0-30%": "0 0 30%",
         "0-0-400px": "0 0 400px",
+        "1-1-400px": "1 1 400px",
       },
       scale: {
         0.6: "0.6",

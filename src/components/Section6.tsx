@@ -47,6 +47,16 @@ export function Section6() {
                   모든 업무 관리와 데이터 관리, 이제는 flex에서
                 </span>
               </div>
+              <div className="flex flex-col flex-nowrap justify-between items-start h-400px flex-1-1-400px overflow-hidden pt-30px pl-5 bg-section-6 gap-30px rounded-20px">
+                <span></span>
+                <img
+                  data-component="landing-image"
+                  src="https://static.flex.team/v2/landing/home/corehr/img-core-1.png"
+                  srcSet="https://static.flex.team/v2/landing/home/corehr/img-core-1.png 1x, https://static.flex.team/v2/landing/home/corehr/img-core-1@2x.png 2x, https://static.flex.team/v2/landing/home/corehr/img-core-1@3x.png 3x"
+                  data-card="home-card"
+                  alt="Core hr flex"
+                />
+              </div>
             </div>
             <div className="flex flex-col flex-nowrap justify-between items-start h-400px flex-0-0-400px overflow-hidden pt-30px px-5 gap-30px bg-section-6-background rounded-20px"></div>
           </div>
