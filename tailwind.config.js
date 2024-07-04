@@ -58,9 +58,11 @@ module.exports = {
         "60px": "60px",
         "100px": "100px",
         "255px": "255px",
+        "400px": "400px",
       },
       borderRadius: {
         "10px": "10px",
+        "20px": "20px",
         "48px": "48px",
       },
       spacing: {
@@ -88,6 +90,8 @@ module.exports = {
           "linear-gradient(101.83deg, #7f87e0 -13.2%, #2649ca -13.19%, #6a76df 46.63%, #32b0f7 107.09%)",
         "section-1":
           "linear-gradient(rgba(238, 245, 255, 0), rgba(238, 242, 255, 1))",
+        "section-6-background":
+          "linear-gradient(348deg, #8BB68C 0.84%, #D7E5C8 99.6%)",
       },
       textColor: {
         "banner-notice": "rgb(0, 153, 255)",
@@ -98,6 +102,9 @@ module.exports = {
         "section-3-link": "rgb(59, 134, 200)",
         "section-4-title": "rgb(31, 46, 61)",
         "section-4-content": "rgb(141, 150, 161)",
+        "section-6-title": "#8b95a1",
+        "section-6-second-title": "#1f2e3d",
+        "section-6-content": "#8d96a1",
       },
       colors: {
         banner: "#242a30",
@@ -113,13 +120,15 @@ module.exports = {
           "rgba(0, 0, 0, 0.02) 0px 2px 6px, rgba(0, 0, 0, 0.06) 0px -1px 0px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px inset",
       },
       flex: {
-        "0-0-30": "0 0 30%",
+        "0-0-30%": "0 0 30%",
+        "0-0-400px": "0 0 400px",
       },
       scale: {
         0.6: "0.6",
       },
       letterSpacing: {
         "section-4": "-.01em",
+        "section-6-title": "-.17px",
       },
     },
   },

@@ -11,7 +11,7 @@ export function Section2() {
           </span>
         </div>
         <ul className="flex flex-wrap justify-center items-center w-full max-w-1110px gap-y-25px">
-          <li className="flex justify-center items-center w-30% h-42px flex-0-0-30">
+          <li className="flex justify-center items-center w-30% h-42px flex-0-0-30%">
             <img
               className="overflow-clip scale-0.6"
               data-component="landing-image"
