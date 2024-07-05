@@ -1,6 +1,6 @@
 export default function NavigationBar() {
   return (
-    <header>
+    <header className="block transition-none z-10 fixed top-0 w-full">
       <div>
         <a href="/">
           <div className="flex flex-row flex-nowrap justify-between items-center bg-banner h-55px px-4">
@@ -30,7 +30,7 @@ export default function NavigationBar() {
           </div>
         </a>
       </div>
-      <nav className="flex flex-row items-center justify-between h-60px pl-6 pr-15px">
+      <nav className="flex flex-row items-center justify-between h-60px pl-6 pr-15px bg-white">
         <div>
           <a href="/">
             <svg

@@ -75,6 +75,7 @@ module.exports = {
         "34px": "34px",
         "60px": "60px",
         "114px": "114px",
+        "115px": "115px",
         "50%": "50%",
       },
       padding: {
@@ -91,7 +92,7 @@ module.exports = {
           "linear-gradient(101.83deg, #7f87e0 -13.2%, #2649ca -13.19%, #6a76df 46.63%, #32b0f7 107.09%)",
         "section-1":
           "linear-gradient(rgba(238, 245, 255, 0), rgba(238, 242, 255, 1))",
-        "section-6-background":
+        "section-6-2-background":
           "linear-gradient(348deg, #8BB68C 0.84%, #D7E5C8 99.6%)",
         "section-8-background":
           "linear-gradient(103deg, #FCF3FF 0%, #B6CFFF 100%);",
@@ -108,10 +109,10 @@ module.exports = {
         "section-6-title": "#8b95a1",
         "section-6-second-title": "#1f2e3d",
         "section-6-content": "#8d96a1",
-        "section-6-card-text-1": "#b7905b",
-        "section-6-card-text-2": "#75490D",
-        "section-6-card-text-3": "rgb(124, 148, 125)",
-        "section-6-card-text-4": "rgb(49, 87, 26)",
+        "section-6-1-card-text": "#b7905b",
+        "section-6-2-card-text": "#75490D",
+        "section-6-3-card-text": "rgb(124, 148, 125)",
+        "section-6-4-card-text": "rgb(49, 87, 26)",
         "section-7-security": "#8B95A1",
         "section-8-card-text-1": "#6E7ABC",
         "section-8-card-text-2": "rgb(30, 37, 107)",
@@ -124,7 +125,7 @@ module.exports = {
         "section-2-our-company-text": "rgb(28, 89, 146)",
         "section-3": "#FAFAFA",
         "section-3-manager": "#8d96a1",
-        "section-6": "#ead8bf",
+        "section-6-1-background": "#ead8bf",
         "section-7": "#F5F6F7",
         "section-9-1-background": "#D2E9FF",
         "section-9-2-background": "#DCE6FF",

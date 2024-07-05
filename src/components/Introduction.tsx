@@ -99,9 +99,9 @@ export function Introduction({ section }: IntroductionProps) {
         "중요한 HR 데이터를 다루는 플랫폼, 선택의 기준은 보안입니다.";
       informations.extraComponents = `<a
               href="/"
-              style=""display:flex flex-row flex-nowrap justify-start items-center""
+              class="flex flex-row flex-nowrap justify-start items-center"
             >
-              <span className="font-bold text-section-3-link text-15px">
+              <span class="font-bold text-section-3-link text-15px">
                 자세히 보기
               </span>
               <svg
@@ -151,9 +151,7 @@ export function Introduction({ section }: IntroductionProps) {
         <div
           dangerouslySetInnerHTML={{ __html: informations.extraComponents }}
         />
-      ) : (
-        <></>
-      )}
+      ) : null}
     </div>
   );
 }

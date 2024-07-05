@@ -14,15 +14,17 @@ function App() {
   return (
     <div className="flex flex-col">
       <NavigationBar />
-      <Section1 />
-      <Section2 />
-      <Section3 />
-      <Section4 />
-      <Section5 />
-      <Section6 />
-      <Section7 />
-      <Section8 />
-      <Section9 />
+      <main className="mt-115px">
+        <Section1 />
+        <Section2 />
+        <Section3 />
+        <Section4 />
+        <Section5 />
+        <Section6 />
+        <Section7 />
+        <Section8 />
+        <Section9 />
+      </main>
     </div>
   );
 }
