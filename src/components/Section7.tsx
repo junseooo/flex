@@ -1,3 +1,5 @@
+import { Introduction } from "./Introduction";
+
 export function Section7() {
   return (
     <section className="block px-5 py-20">
@@ -75,6 +77,7 @@ export function Section7() {
                 ></path>
               </svg>
             </a>
+            <Introduction section={7} />
           </div>
         </div>
       </div>

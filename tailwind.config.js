@@ -126,6 +126,8 @@ module.exports = {
         "section-3-manager": "#8d96a1",
         "section-6": "#ead8bf",
         "section-7": "#F5F6F7",
+        "section-9-1-background": "#D2E9FF",
+        "section-9-2-background": "#DCE6FF",
       },
       boxShadow: {
         "custom-shadow":
