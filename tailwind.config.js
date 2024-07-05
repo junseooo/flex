@@ -110,6 +110,7 @@ module.exports = {
         "section-6-card-text-2": "#75490D",
         "section-6-card-text-3": "rgb(124, 148, 125)",
         "section-6-card-text-4": "rgb(49, 87, 26)",
+        "section-7-security": "#8B95A1",
       },
       colors: {
         banner: "#242a30",
@@ -120,6 +121,7 @@ module.exports = {
         "section-3": "#FAFAFA",
         "section-3-manager": "#8d96a1",
         "section-6": "#ead8bf",
+        "section-7": "#F5F6F7",
       },
       boxShadow: {
         "custom-shadow":
