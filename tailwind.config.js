@@ -46,6 +46,7 @@ module.exports = {
         "30%": "30%",
       },
       maxWidth: {
+        "200px": "200px",
         "1110px": "1110px",
       },
       minWidth: {
@@ -105,6 +106,10 @@ module.exports = {
         "section-6-title": "#8b95a1",
         "section-6-second-title": "#1f2e3d",
         "section-6-content": "#8d96a1",
+        "section-6-card-text-1": "#b7905b",
+        "section-6-card-text-2": "#75490D",
+        "section-6-card-text-3": "rgb(124, 148, 125)",
+        "section-6-card-text-4": "rgb(49, 87, 26)",
       },
       colors: {
         banner: "#242a30",
