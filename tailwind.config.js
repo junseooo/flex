@@ -93,6 +93,8 @@ module.exports = {
           "linear-gradient(rgba(238, 245, 255, 0), rgba(238, 242, 255, 1))",
         "section-6-background":
           "linear-gradient(348deg, #8BB68C 0.84%, #D7E5C8 99.6%)",
+        "section-8-background":
+          "linear-gradient(103deg, #FCF3FF 0%, #B6CFFF 100%);",
       },
       textColor: {
         "banner-notice": "rgb(0, 153, 255)",
@@ -111,6 +113,8 @@ module.exports = {
         "section-6-card-text-3": "rgb(124, 148, 125)",
         "section-6-card-text-4": "rgb(49, 87, 26)",
         "section-7-security": "#8B95A1",
+        "section-8-card-text-1": "#6E7ABC",
+        "section-8-card-text-2": "rgb(30, 37, 107)",
       },
       colors: {
         banner: "#242a30",

@@ -329,7 +329,6 @@ export function Section2() {
           <li className="flex justify-center items-center w-30% h-42px flex-0-0-30">
             <a
               href="/"
-              role="link"
               className="flex justify-center items-center w-120px h-38px px-4 rounded-10px border-2 border-dashed border-section-2-our-company bg-section-2-our-company-bg"
             >
               <div className="flex flex-row flex-nowrap justify-start items-stretch gap-1">
