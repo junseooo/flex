@@ -47,6 +47,7 @@ module.exports = {
       },
       maxWidth: {
         "200px": "200px",
+        "280px": "280px",
         "1110px": "1110px",
       },
       minWidth: {
@@ -59,6 +60,7 @@ module.exports = {
         "60px": "60px",
         "100px": "100px",
         "255px": "255px",
+        "350px": "350px",
         "400px": "400px",
       },
       borderRadius: {
@@ -96,6 +98,8 @@ module.exports = {
           "linear-gradient(348deg, #8BB68C 0.84%, #D7E5C8 99.6%)",
         "section-8-background":
           "linear-gradient(103deg, #FCF3FF 0%, #B6CFFF 100%);",
+        "section-10-card-1-background":
+          "linear-gradient(104deg, rgb(201, 210, 102) -1.56%, rgb(198, 248, 212) 99.82%);",
       },
       textColor: {
         "banner-notice": "rgb(0, 153, 255)",
@@ -123,6 +127,8 @@ module.exports = {
         "section-9-card-3-text-1": "rgb(125, 208, 123)",
         "section-9-card-3-text-2": "rgb(70, 136, 69)",
         "section-9-card-4-text-1": "rgb(214, 135, 140)",
+        "section-10-card-1-text-1": "rgb(112, 159, 64)",
+        "section-10-card-1-text-2": "rgb(51, 124, 22)",
       },
       colors: {
         banner: "#242a30",
@@ -138,6 +144,8 @@ module.exports = {
         "section-9-card-2-background": "rgb(220, 230, 255)",
         "section-9-card-3-background": "rgb(217, 255, 212)",
         "section-9-card-4-background": "rgb(255, 226, 228)",
+        "section-10-card-2-background": "#f8f9fa",
+        "section-10-card-3-background": "rgb(228, 250, 183)",
       },
       boxShadow: {
         "custom-shadow":

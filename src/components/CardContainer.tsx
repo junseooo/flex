@@ -17,6 +17,7 @@ export interface IInformations {
   text4?: string;
   text5?: string;
   text6?: string;
+  height?: number;
 }
 
 export function CardContainer({ section }: CardContainerProps) {
@@ -49,6 +50,7 @@ export function CardContainer({ section }: CardContainerProps) {
                     data-card="home-card"
                     alt="Core hr flex"
                   />`}
+            height={400}
           />
           <div style={{ height: "30px" }} />
           <CardNoBottom
@@ -68,6 +70,7 @@ export function CardContainer({ section }: CardContainerProps) {
                 data-card="home-card"
                 alt="All in one hr"
               />`}
+            height={400}
           />
         </div>
       );
@@ -113,6 +116,7 @@ export function CardContainer({ section }: CardContainerProps) {
             textColor1={"text-section-9-card-1-text-1"}
             textColor2={"text-section-9-card-1-text-2"}
             imgContent={`<img data-component="landing-image" src="https://static.flex.team/v2/landing/home/time-tracking/img-tt-1.png" srcSet="https://static.flex.team/v2/landing/home/time-tracking/img-tt-1.png 1x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-1@2x.png 2x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-1@3x.png 3x" data-card="home-card" alt="유연근무제를 고민 중" />`}
+            height={400}
           />
           <div style={{ height: "20px" }} />
           <CardNoBottom
@@ -124,6 +128,7 @@ export function CardContainer({ section }: CardContainerProps) {
             textColor1={"text-section-9-card-2-text-1"}
             textColor2={"text-section-9-card-2-text-2"}
             imgContent={`<img data-component="landing-image" src="https://static.flex.team/v2/landing/home/time-tracking/img-tt-2.png" srcSet="https://static.flex.team/v2/landing/home/time-tracking/img-tt-2.png 1x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-2@2x.png 2x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-2@3x.png 3x" data-card="home-card" alt="다양한 근무 유형" />`}
+            height={400}
           />
           <div style={{ height: "20px" }} />
           <CardNoBottom
@@ -135,6 +140,7 @@ export function CardContainer({ section }: CardContainerProps) {
             textColor1={"text-section-9-card-3-text-1"}
             textColor2={"text-section-9-card-3-text-2"}
             imgContent={`<img data-component="landing-image" src="https://static.flex.team/v2/landing/home/time-tracking/img-tt-3.png" srcSet="https://static.flex.team/v2/landing/home/time-tracking/img-tt-3.png 1x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-3@2x.png 2x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-3@3x.png 3x" data-card="home-card" alt="근로기준법 설정" />`}
+            height={400}
           />
           <div style={{ height: "20px" }} />
           <CardNoBottom
@@ -144,6 +150,45 @@ export function CardContainer({ section }: CardContainerProps) {
             textColor1={"text-section-9-card-4-text-1"}
             textColor2={"section-9-card-4-text-2-gradient"}
             imgContent={`<img class="max-w-200px" data-component="landing-image" src="https://static.flex.team/v2/landing/home/time-tracking/img-tt-4.png" srcSet="https://static.flex.team/v2/landing/home/time-tracking/img-tt-4.png 1x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-4@2x.png 2x, https://static.flex.team/v2/landing/home/time-tracking/img-tt-4@3x.png 3x" data-card="home-card" alt="번아웃 방지" />`}
+            height={400}
+          />
+        </div>
+      );
+    case 10:
+      return (
+        <div>
+          <CardNoBottom
+            backgroundColor={"bg-section-10-card-1-background"}
+            text1={"연차 부여와 소멸이 자동으로"}
+            text2={
+              "딱 한 번만 설정하세요. 번거로운 연차 업<br />무와 안녕입니다."
+            }
+            textColor1={"text-section-10-card-1-text-1"}
+            textColor2={"text-section-10-card-1-text-2"}
+            imgContent={`<img data-component="landing-image" src="https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-1.png" srcSet="https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-1.png 1x, https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-1@2x.png 2x, https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-1@3x.png 3x" data-card="home-card" alt="연차 설정" />`}
+            height={350}
+          />
+          <div style={{ height: "20px" }} />
+          <CardDefault
+            backgroundColor={"bg-section-10-card-2-background"}
+            text1={"손쉬운 과거 연차 마이그레이션"}
+            text2={"잔여 연차 갯수,<br />연차 사용 내역까지<br />동기화하세요."}
+            textColor1={"text-section-10-card-1-text-1"}
+            textColor2={"text-section-10-card-1-text-2"}
+            imgContent={`<img class="max-w-280px" data-component="landing-image" src="https://static.flex.team/v2/landing/home/annual-time-off/img-time-off-migrate.png" srcSet="https://static.flex.team/v2/landing/home/annual-time-off/img-time-off-migrate.png 1x, https://static.flex.team/v2/landing/home/annual-time-off/img-time-off-migrate@2x.png 2x, https://static.flex.team/v2/landing/home/annual-time-off/img-time-off-migrate@3x.png 3x" data-card="home-card" alt="연차 마이그레이션" />`}
+            height={350}
+          />
+          <div style={{ height: "20px" }} />
+          <CardNoBottom
+            backgroundColor={"bg-section-10-card-3-background"}
+            text1={"투명한 연차관리 업무"}
+            text2={
+              "연차 사용 내역, 잔여 연차를<br />구성원이 실시간으로 확인할 수 있어요."
+            }
+            textColor1={"text-section-10-card-1-text-1"}
+            textColor2={"text-section-10-card-1-text-2"}
+            imgContent={`<img data-component="landing-image" src="https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-3.png" srcSet="https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-3.png 1x, https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-3@2x.png 2x, https://static.flex.team/v2/landing/home/annual-time-off/img-timeoff-3@3x.png 3x" data-card="home-card" alt="투명한 연차관리" />`}
+            height={350}
           />
         </div>
       );

@@ -4,7 +4,8 @@ import { TextBox } from "./TextBox";
 export function CardNoBottom(props: IInformations) {
   return (
     <div
-      className={`flex flex-col flex-nowrap justify-between items-start h-400px flex-0-0-400px overflow-hidden pt-30px px-5 gap-30px ${props.backgroundColor} rounded-20px`}
+      className={`flex flex-col flex-nowrap justify-between items-start h-${props.height}px overflow-hidden pt-30px px-5 gap-30px ${props.backgroundColor} rounded-20px`}
+      style={{ height: `${props.height}px` }}
     >
       <div className="flex flex-col flex-nowrap justify-between items-stretch gap-10">
         <TextBox
