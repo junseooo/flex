@@ -116,6 +116,13 @@ module.exports = {
         "section-7-security": "#8B95A1",
         "section-8-card-text-1": "#6E7ABC",
         "section-8-card-text-2": "rgb(30, 37, 107)",
+        "section-9-card-1-text-1": "rgb(120, 162, 203)",
+        "section-9-card-1-text-2": "rgb(56, 110, 165)",
+        "section-9-card-2-text-1": "rgb(140, 158, 202)",
+        "section-9-card-2-text-2": "rgb(58, 84, 151)",
+        "section-9-card-3-text-1": "rgb(125, 208, 123)",
+        "section-9-card-3-text-2": "rgb(70, 136, 69)",
+        "section-9-card-4-text-1": "rgb(214, 135, 140)",
       },
       colors: {
         banner: "#242a30",
@@ -127,8 +134,10 @@ module.exports = {
         "section-3-manager": "#8d96a1",
         "section-6-1-background": "#ead8bf",
         "section-7": "#F5F6F7",
-        "section-9-1-background": "#D2E9FF",
-        "section-9-2-background": "#DCE6FF",
+        "section-9-card-1-background": "rgb(210, 233, 255)",
+        "section-9-card-2-background": "rgb(220, 230, 255)",
+        "section-9-card-3-background": "rgb(217, 255, 212)",
+        "section-9-card-4-background": "rgb(255, 226, 228)",
       },
       boxShadow: {
         "custom-shadow":
@@ -158,12 +167,22 @@ module.exports = {
           "-webkit-text-fill-color": "transparent",
         },
       };
-
       addUtilities(newUtilities, ["responsive", "hover"]);
     },
     function ({ addUtilities }) {
       addUtilities({
         ".section-5-text-gradient": {
+          "background-image":
+            "linear-gradient(96.77deg, rgb(249, 106, 25) -0.96%, rgb(251, 96, 189) 100%)",
+          "-webkit-background-clip": "text",
+          "background-clip": "text",
+          color: "transparent",
+        },
+      });
+    },
+    function ({ addUtilities }) {
+      addUtilities({
+        ".section-9-card-4-text-2-gradient": {
           "background-image":
             "linear-gradient(96.77deg, rgb(249, 106, 25) -0.96%, rgb(251, 96, 189) 100%)",
           "-webkit-background-clip": "text",
