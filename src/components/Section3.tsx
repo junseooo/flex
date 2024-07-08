@@ -50,7 +50,7 @@ export function Section3() {
             </a>
           </div>
           <ul className="flex w-full px-10 pb-30px gap-6 overflow-x-scroll my-4">
-            <li className="list-item list-none">
+            <li className="list-item list-none flex-shrink-0">
               <a
                 href="/"
                 className="flex flex-col flex-nowrap justify-start items-stretch gap-30px"
@@ -80,7 +80,7 @@ export function Section3() {
                 </div>
               </a>
             </li>
-            <li className="list-item list-none">
+            <li className="list-item list-none flex-shrink-0">
               <a
                 href="/"
                 className="flex flex-col flex-nowrap justify-start items-stretch gap-30px"
@@ -110,7 +110,7 @@ export function Section3() {
                 </div>
               </a>
             </li>
-            <li className="list-item list-none">
+            <li className="list-item list-none flex-shrink-0">
               <a
                 href="/"
                 className="flex flex-col flex-nowrap justify-start items-stretch gap-30px"
@@ -140,7 +140,7 @@ export function Section3() {
                 </div>
               </a>
             </li>
-            <li className="list-item list-none">
+            <li className="list-item list-none flex-shrink-0">
               <a
                 href="/"
                 className="flex flex-col flex-nowrap justify-start items-stretch gap-30px"
@@ -170,7 +170,7 @@ export function Section3() {
                 </div>
               </a>
             </li>
-            <li className="list-item list-none">
+            <li className="list-item list-none flex-shrink-0">
               <a
                 href="/"
                 className="flex flex-col flex-nowrap justify-start items-stretch gap-30px"
