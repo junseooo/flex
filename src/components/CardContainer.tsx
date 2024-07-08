@@ -1,4 +1,3 @@
-import { CardDefault } from "./CardDefault";
 import { CardNoBottom } from "./CardNoBottom";
 import { CardTopLeft } from "./CardTopLeft";
 
@@ -13,17 +12,13 @@ export interface IInformations {
   textColor1: string;
   textColor2: string;
   imgContent: string;
+  text3?: string;
+  text4?: string;
+  text5?: string;
+  text6?: string;
 }
 
 export function CardContainer({ section }: CardContainerProps) {
-  // const informations: IInformations = {
-  //   backgroundColor: "",
-  //   text1: "",
-  //   text2: "",
-  //   textColor1: "",
-  //   textColor2: "",
-  //   imgContent: "",
-  // };
   switch (section) {
     case 1:
       break;
@@ -44,8 +39,8 @@ export function CardContainer({ section }: CardContainerProps) {
             text2={
               "구성원의 개인정보, 인사정보와<br />근태, 급여, 계약기록을 flex 하나로<br />관리할 수 있습니다."
             }
-            textColor1={"text-section-6-1-card-text"}
-            textColor2={"text-section-6-2-card-text"}
+            textColor1={"text-section-6-card-1-text-1"}
+            textColor2={"text-section-6-card-1-text-2"}
             imgContent={`<img
                     data-component="landing-image"
                     src="https://static.flex.team/v2/landing/home/corehr/img-core-1.png"
@@ -61,8 +56,8 @@ export function CardContainer({ section }: CardContainerProps) {
             text2={
               "flex의 모든 기능은<br />구성원 데이터와 연동되어<br />유기적으로 동작합니다."
             }
-            textColor1={"text-section-6-3-card-text"}
-            textColor2={"text-section-6-4-card-text"}
+            textColor1={"text-section-6-card-2-text-1"}
+            textColor2={"text-section-6-card-2-text-2"}
             imgContent={`<img
                 width="200px"
                 style={{ alignSelf: 'center' }}
@@ -79,7 +74,34 @@ export function CardContainer({ section }: CardContainerProps) {
     case 7:
       break;
     case 8:
-      break;
+      return (
+        <div>
+          <CardTopLeft
+            backgroundColor={"bg-section-8-background"}
+            text1={"우리 회사, 잘 알고 있나요?"}
+            text2={
+              "생각만큼 잘 성장하고 있는지,<br />구성원이 어떻게 일하고 있는지,<br />궁금하지 않으세요?"
+            }
+            textColor1={"text-section-8-card-text-1"}
+            textColor2={"text-section-8-card-text-2"}
+            imgContent={`<img
+                           data-component="landing-image"
+                           src="https://static.flex.team/v2/landing/home/insight/img-insight.png"
+                           srcSet="https://static.flex.team/v2/landing/home/insight/img-insight.png 1x, https://static.flex.team/v2/landing/home/insight/img-insight@2x.png 2x, https://static.flex.team/v2/landing/home/insight/img-insight@3x.png 3x"
+                           data-card="home-card"
+                           alt="인사이트"
+                         />`}
+            text3={"조직에 대한 고민이 있나요?"}
+            text4={
+              "근무시간, 휴가, 보상을<br />조직, 역할, 직책 별로<br />알아볼까요?"
+            }
+            text5={"꼭 필요한 데이터만"}
+            text6={
+              "최고의 HR 전문가가<br />선별한 32가지 항목으로<br />조직을 진단하세요."
+            }
+          />
+        </div>
+      );
     // case 9:
     //   informations.backgroundColor = "bg-section-9-1-background";
     //   informations.text1 = "유연근무제를 고민하나요?";

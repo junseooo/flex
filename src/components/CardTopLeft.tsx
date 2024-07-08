@@ -1,4 +1,5 @@
 import { IInformations } from "./CardContainer";
+import { TextBox } from "./TextBox";
 
 export function CardTopLeft(props: IInformations) {
   return (
@@ -6,11 +7,28 @@ export function CardTopLeft(props: IInformations) {
       className={`flex flex-col flex-nowrap justify-between items-start pt-30px pl-5 gap-34px w-full ${props.backgroundColor} rounded-20px overflow-hidden`}
     >
       <div className="flex flex-col flex-nowrap justify-between items-stretch gap-10">
-        <span className={`font-bold ${props.textColor1} text-xl`}>
-          <span className={`${props.textColor2}`}>{props.text1}</span>
-          <br />
-          <span dangerouslySetInnerHTML={{ __html: props.text2 }} />
-        </span>
+        <TextBox
+          textColor1={props.textColor1}
+          textColor2={props.textColor2}
+          text1={props.text1}
+          text2={props.text2}
+        />
+        {props.text3 ? (
+          <TextBox
+            textColor1={props.textColor1}
+            textColor2={props.textColor2}
+            text1={props.text3!}
+            text2={props.text4!}
+          />
+        ) : null}
+        {props.text5 ? (
+          <TextBox
+            textColor1={props.textColor1}
+            textColor2={props.textColor2}
+            text1={props.text5!}
+            text2={props.text6!}
+          />
+        ) : null}
       </div>
       <div dangerouslySetInnerHTML={{ __html: props.imgContent }} />
     </div>
