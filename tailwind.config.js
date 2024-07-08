@@ -47,6 +47,7 @@ module.exports = {
       },
       maxWidth: {
         "200px": "200px",
+        "240px": "240px",
         "280px": "280px",
         "1110px": "1110px",
       },
@@ -75,6 +76,7 @@ module.exports = {
         "25px": "25px",
         "30px": "30px",
         "34px": "34px",
+        "42px": "42px",
         "60px": "60px",
         "114px": "114px",
         "115px": "115px",
@@ -82,6 +84,7 @@ module.exports = {
       },
       padding: {
         "15px": "15px",
+        "42px": "42px",
         "60px": "60px",
         "75px": "75px",
         "87px": "87px",
@@ -100,6 +103,8 @@ module.exports = {
           "linear-gradient(103deg, #FCF3FF 0%, #B6CFFF 100%);",
         "section-10-card-1-background":
           "linear-gradient(104deg, rgb(201, 210, 102) -1.56%, rgb(198, 248, 212) 99.82%);",
+        "section-11-card-3-background":
+          "linear-gradient(125deg, rgb(98, 208, 229) 0.55%, rgb(97, 150, 229) 98.55%);",
       },
       textColor: {
         "banner-notice": "rgb(0, 153, 255)",
@@ -129,6 +134,14 @@ module.exports = {
         "section-9-card-4-text-1": "rgb(214, 135, 140)",
         "section-10-card-1-text-1": "rgb(112, 159, 64)",
         "section-10-card-1-text-2": "rgb(51, 124, 22)",
+        "section-11-card-1-text-1": "rgb(141, 150, 161)",
+        "section-11-card-1-text-2": "rgb(36, 42, 48)",
+        "section-11-card-2-text-1": "rgb(131, 161, 197)",
+        "section-11-card-2-text-2": "rgb(14, 75, 117)",
+        "section-11-card-3-text-1": "rgb(39, 124, 186)",
+        "section-11-card-3-text-2": "rgb(14, 75, 117)",
+        "section-11-card-4-text-1": "rgb(141, 150, 161)",
+        "section-11-card-4-text-2": "rgb(36, 42, 48)",
       },
       colors: {
         banner: "#242a30",
@@ -146,6 +159,9 @@ module.exports = {
         "section-9-card-4-background": "rgb(255, 226, 228)",
         "section-10-card-2-background": "#f8f9fa",
         "section-10-card-3-background": "rgb(228, 250, 183)",
+        "section-11-card-1-background": "#f8f9fa",
+        "section-11-card-2-background": "rgb(222, 240, 250)",
+        "section-11-card-4-background": "#f8f9fa",
       },
       boxShadow: {
         "custom-shadow":

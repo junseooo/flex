@@ -2,10 +2,14 @@ import { IInformations } from "./CardContainer";
 import { TextBox } from "./TextBox";
 
 export function CardNoBottom(props: IInformations) {
+  const heightStyle = props.height
+    ? { height: `${props.height}px` }
+    : { height: "400px" };
+
   return (
     <div
-      className={`flex flex-col flex-nowrap justify-between items-start h-${props.height}px overflow-hidden pt-30px px-5 gap-30px ${props.backgroundColor} rounded-20px`}
-      style={{ height: `${props.height}px` }}
+      className={`flex flex-col flex-nowrap justify-between items-start overflow-hidden pt-30px px-5 gap-30px ${props.backgroundColor} rounded-20px`}
+      style={{ ...heightStyle }}
     >
       <div className="flex flex-col flex-nowrap justify-between items-stretch gap-10">
         <TextBox
@@ -15,10 +19,7 @@ export function CardNoBottom(props: IInformations) {
           text2={props.text2}
         />
       </div>
-      <div
-        className="flex w-full justify-center"
-        dangerouslySetInnerHTML={{ __html: props.imgContent }}
-      />
+      {props.imgContent}
     </div>
   );
 }

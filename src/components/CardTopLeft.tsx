@@ -2,10 +2,14 @@ import { IInformations } from "./CardContainer";
 import { TextBox } from "./TextBox";
 
 export function CardTopLeft(props: IInformations) {
+  const heightStyle = props.height
+    ? { height: `${props.height}px` }
+    : { height: "400px" };
+
   return (
     <div
-      className={`flex flex-col flex-nowrap justify-between items-start pt-30px pl-5 gap-34px w-full h-${props.height}px ${props.backgroundColor} rounded-20px overflow-hidden`}
-      style={{ height: `${props.height}px` }}
+      className={`flex flex-col flex-nowrap justify-between items-start pt-30px pl-5 gap-34px w-full ${props.backgroundColor} rounded-20px overflow-hidden`}
+      style={{ ...heightStyle }}
     >
       <div className="flex flex-col flex-nowrap justify-between items-stretch gap-10">
         <TextBox
@@ -31,7 +35,7 @@ export function CardTopLeft(props: IInformations) {
           />
         ) : null}
       </div>
-      <div dangerouslySetInnerHTML={{ __html: props.imgContent }} />
+      {props.imgContent}
     </div>
   );
 }
