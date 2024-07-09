@@ -47,7 +47,7 @@ export function CardBasis(props: CardProps) {
           text2={props.text6!}
         />
       ) : null}
-      {props.imgContent ? props.imgContent : null}
+      {props.imgContent!}
     </div>
   );
 }

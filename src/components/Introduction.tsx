@@ -9,7 +9,7 @@ interface IInformations {
   svgContent: ReactNode;
   titleText: string;
   subTitleText: string;
-  contentText: string;
+  contentText?: string;
   extraComponents?: ReactNode;
 }
 
@@ -242,6 +242,39 @@ export function Introduction({ section }: IntroductionProps) {
       informations.contentText =
         "입사와 퇴사, 근태기록과 연동되는 급여정산<br />일일이 취합하지 말고 한눈에 확인하세요.";
       break;
+    case 12:
+      informations.svgContent = (
+        <svg
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g clip-path="url(#clip0_7102_3959)">
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M17.8245 5.22106C20.3135 5.20384 22.7602 5.81071 24.9672 6.97837L24.9949 6.97334C25.5236 6.87702 25.6806 6.84843 26.5723 6.84843C27.0061 6.84843 28.2381 7.00357 29.4054 7.16544C30.9155 7.37485 32.1534 8.45682 32.5911 9.91717L30.3777 12.0855C31.054 13.2273 31.5394 14.4795 31.8157 15.7877L34.4168 17.4984V22.174C34.4169 22.8389 34.2373 23.4955 33.8924 24.0661C33.547 24.6375 33.0469 25.1036 32.4424 25.3983L27.5695 27.7713C27.4947 27.8355 27.4184 27.8998 27.3405 27.9638L25.6896 32.9707H19.4293L19.1662 31.2345C18.2769 31.3104 17.3833 31.3105 16.4941 31.2346L16.2324 32.9707H9.96961L8.318 27.9619C5.43705 25.597 3.5835 22.1409 3.5835 18.2554C3.5835 10.9298 10.0947 5.22356 17.8245 5.22106ZM20.5418 14.0853H14.3752V11.7728H20.5418V14.0853ZM27.0196 20.5258C27.6002 20.5258 28.0708 20.0331 28.0708 19.4253C28.0708 18.8176 27.6002 18.3249 27.0196 18.3249C26.4391 18.3249 25.9685 18.8176 25.9685 19.4253C25.9685 20.0331 26.4391 20.5258 27.0196 20.5258Z"
+              fill="#E87F68"
+            ></path>
+          </g>
+          <defs>
+            <clipPath id="clip0_7102_3959">
+              <rect
+                width="35"
+                height="35"
+                fill="white"
+                transform="translate(0.5 0.595703)"
+              ></rect>
+            </clipPath>
+          </defs>
+        </svg>
+      );
+      informations.titleText = "연말정산";
+      informations.subTitleText =
+        "지금까지 경험 못한<br />스트레스 없는 연말정산";
+      break;
     default:
       break;
   }
@@ -257,9 +290,9 @@ export function Introduction({ section }: IntroductionProps) {
         {parse(informations.subTitleText)}
       </span>
       <span className="font-semibold text-introduction-content text-15px text-center">
-        {parse(informations.contentText)}
+        {parse(informations.contentText!)}
       </span>
-      {informations.extraComponents ? informations.extraComponents : null}
+      {informations.extraComponents!}
     </div>
   );
 }
