@@ -49,6 +49,8 @@ module.exports = {
         "200px": "200px",
         "240px": "240px",
         "280px": "280px",
+        "360px": "360px",
+        "388px": "388px",
         "1110px": "1110px",
       },
       minWidth: {
@@ -97,14 +99,38 @@ module.exports = {
           "linear-gradient(101.83deg, #7f87e0 -13.2%, #2649ca -13.19%, #6a76df 46.63%, #32b0f7 107.09%)",
         "section-1":
           "linear-gradient(rgba(238, 245, 255, 0), rgba(238, 242, 255, 1))",
-        "section-6-2-background":
+        "section-6-card-2-background":
           "linear-gradient(348deg, #8BB68C 0.84%, #D7E5C8 99.6%)",
-        "section-8-background":
+        "section-8-card-background":
           "linear-gradient(103deg, #FCF3FF 0%, #B6CFFF 100%);",
         "section-10-card-1-background":
           "linear-gradient(104deg, rgb(201, 210, 102) -1.56%, rgb(198, 248, 212) 99.82%);",
         "section-11-card-3-background":
           "linear-gradient(125deg, rgb(98, 208, 229) 0.55%, rgb(97, 150, 229) 98.55%);",
+        "section-12-card-1-background":
+          "linear-gradient(93deg, #FDC8C8 13.58%, #EAC3D0 98.22%)",
+        "section-12-card-2-background":
+          "linear-gradient(123deg, #F7CCC3 14.97%, #FCD3AE 71.26%)",
+        "section-13-card-1-background":
+          "linear-gradient(0deg, rgba(146, 188, 104, 0.20) 0%, rgba(146, 188, 104, 0.20) 100%), linear-gradient(104deg, #D2DB69 -1.56%, #C6F8D4 99.82%)",
+        "section-13-card-2-background":
+          "linear-gradient(0deg, rgba(214, 155, 155, 0.20) 0%, rgba(214, 155, 155, 0.20) 100%), linear-gradient(157deg, #EBC0C0 5.46%, rgba(229, 181, 201, 0.76) 47.83%, rgba(195, 143, 190, 0.70) 83.82%)",
+        "section-14-card-1-background":
+          "linear-gradient(311deg, #C7E3F2 -0.03%, #D0EAE9 96.4%)",
+        "section-14-card-2-background":
+          "linear-gradient(0deg, rgba(0, 0, 0, 0.03) 0%, rgba(0, 0, 0, 0.03) 100%), linear-gradient(0deg, #C8E4E3 0%, #C8E4E3 100%)",
+        "section-15-card-3-background":
+          "linear-gradient(106deg, #FBD3BD 1.95%, #E6D6E7 64.26%, #FFC2BE 118.65%)",
+        "section-16-card-1-background":
+          "linear-gradient(0deg, #F7F7FA 0%, #F7F7FA 100%), rgba(205, 155, 214, 0.20)",
+        "section-16-card-2-background":
+          "linear-gradient(104deg, #C0D0FA -9.4%, #E1D5E9 68.79%, #E9C0EA 105.12%)",
+        "section-17-card-3-background":
+          "linear-gradient(180deg, #f2e1f2 0%, #beb4ff 100%)",
+        "section-17-card-4-background":
+          "linear-gradient(100.41deg,rgba(255, 249, 227, 0.2) 0%,#f7f8e4 100%)",
+        "section-18-card-3-background":
+          "linear-gradient(177deg, #F4F9FF -44.02%, #DCF2FA 165.08%)",
       },
       textColor: {
         "banner-notice": "rgb(0, 153, 255)",
@@ -115,14 +141,13 @@ module.exports = {
         "section-3-link": "rgb(59, 134, 200)",
         "section-4-title": "rgb(31, 46, 61)",
         "section-4-content": "rgb(141, 150, 161)",
-        "section-6-title": "#8b95a1",
-        "section-6-second-title": "#1f2e3d",
-        "section-6-content": "#8d96a1",
+        "text-box-title": "#8b95a1",
+        "text-box-second-title": "#1f2e3d",
+        "text-box-content": "#8d96a1",
         "section-6-card-1-text-1": "#b7905b",
         "section-6-card-1-text-2": "#75490D",
         "section-6-card-2-text-1": "rgb(124, 148, 125)",
         "section-6-card-2-text-2": "rgb(49, 87, 26)",
-        "section-7-security": "#8B95A1",
         "section-8-card-text-1": "#6E7ABC",
         "section-8-card-text-2": "rgb(30, 37, 107)",
         "section-9-card-1-text-1": "rgb(120, 162, 203)",
@@ -134,6 +159,10 @@ module.exports = {
         "section-9-card-4-text-1": "rgb(214, 135, 140)",
         "section-10-card-1-text-1": "rgb(112, 159, 64)",
         "section-10-card-1-text-2": "rgb(51, 124, 22)",
+        "section-10-card-2-text-1": "rgb(141, 150, 161)",
+        "section-10-card-2-text-2": "rgb(36, 42, 48)",
+        "section-10-card-3-text-1": "rgb(112, 159, 64)",
+        "section-10-card-3-text-2": "rgb(51, 124, 22)",
         "section-11-card-1-text-1": "rgb(141, 150, 161)",
         "section-11-card-1-text-2": "rgb(36, 42, 48)",
         "section-11-card-2-text-1": "rgb(131, 161, 197)",
@@ -142,6 +171,39 @@ module.exports = {
         "section-11-card-3-text-2": "rgb(14, 75, 117)",
         "section-11-card-4-text-1": "rgb(141, 150, 161)",
         "section-11-card-4-text-2": "rgb(36, 42, 48)",
+        "section-12-card-1-text-1": "rgb(205, 100, 102)",
+        "section-12-card-2-text-1": "rgb(223, 123, 81)",
+        "section-12-card-2-text-2": "rgb(160, 73, 36)",
+        "section-13-card-1-text-1": "rgb(146, 159, 72)",
+        "section-13-card-1-text-2": "rgb(105, 116, 44)",
+        "section-13-card-2-text-1": "rgb(109, 57, 60)",
+        "section-13-card-2-text-2": "rgb(191, 128, 132)",
+        "section-14-card-1-text-1": "rgb(49, 88, 125)",
+        "section-14-card-1-text-2": "rgb(109, 148, 186)",
+        "section-14-card-2-text-1": "rgb(74, 183, 179)",
+        "section-14-card-2-text-2": "rgb(42, 103, 103)",
+        "section-15-card-1-text-1": "rgb(141, 150, 161)",
+        "section-15-card-1-text-2": "rgb(60, 70, 81)",
+        "section-15-card-2-text-1": "rgb(192, 142, 115)",
+        "section-15-card-2-text-2": "rgb(137, 67, 28)",
+        "section-15-card-3-text-1": "rgb(205, 126, 93)",
+        "section-15-card-3-text-2": "rgb(114, 52, 26)",
+        "section-16-card-1-text-1": "rgb(141, 150, 161)",
+        "section-16-card-1-text-2": "rgb(36, 42, 48)",
+        "section-16-card-2-text-1": "rgb(172, 121, 195)",
+        "section-16-card-2-text-2": "rgb(101, 26, 114)",
+        "section-17-card-1-text-1": "rgb(141, 150, 161)",
+        "section-17-card-1-text-2": "rgb(36, 42, 48)",
+        "section-17-card-2-text-1": "rgb(168, 131, 197)",
+        "section-17-card-3-text-1": "rgb(168, 131, 197)",
+        "section-17-card-4-text-1": "rgb(141, 150, 161)",
+        "section-17-card-4-text-2": "rgb(36, 42, 48)",
+        "section-18-card-1-text-1": "rgb(123, 143, 217)",
+        "section-18-card-1-text-2": "rgb(44, 69, 156)",
+        "section-18-card-2-text-1": "rgb(141, 150, 161)",
+        "section-18-card-2-text-2": "rgb(36, 42, 48)",
+        "section-18-card-3-text-1": "rgb(131, 161, 197)",
+        "section-18-card-3-text-2": "rgb(14, 75, 117)",
       },
       colors: {
         banner: "#242a30",
@@ -151,7 +213,7 @@ module.exports = {
         "section-2-our-company-text": "rgb(28, 89, 146)",
         "section-3": "#FAFAFA",
         "section-3-manager": "#8d96a1",
-        "section-6-1-background": "#ead8bf",
+        "section-6-card-1-background": "#ead8bf",
         "section-7": "#F5F6F7",
         "section-9-card-1-background": "rgb(210, 233, 255)",
         "section-9-card-2-background": "rgb(220, 230, 255)",
@@ -162,6 +224,12 @@ module.exports = {
         "section-11-card-1-background": "#f8f9fa",
         "section-11-card-2-background": "rgb(222, 240, 250)",
         "section-11-card-4-background": "#f8f9fa",
+        "section-15-card-1-background": "rgba(0, 0, 0, 0.03)",
+        "section-15-card-2-background": "#F7E5DC",
+        "section-17-card-1-background": "#f8f9fa",
+        "section-17-card-2-background": "#E9EBFF",
+        "section-18-card-1-background": "#E9EFFF",
+        "section-18-card-2-background": "#F7F7FA",
       },
       boxShadow: {
         "custom-shadow":
@@ -171,6 +239,7 @@ module.exports = {
         "0-0-30%": "0 0 30%",
         "0-0-400px": "0 0 400px",
         "1-1-400px": "1 1 400px",
+        "1-1-0%": "1 1 0%",
       },
       scale: {
         0.6: "0.6",
@@ -178,6 +247,9 @@ module.exports = {
       letterSpacing: {
         "section-4": "-.01em",
         "section-6-title": "-.17px",
+      },
+      translate: {
+        "10px": "10px",
       },
     },
   },
@@ -211,6 +283,28 @@ module.exports = {
             "linear-gradient(96.77deg, rgb(249, 106, 25) -0.96%, rgb(251, 96, 189) 100%)",
           "-webkit-background-clip": "text",
           "background-clip": "text",
+          color: "transparent",
+        },
+      });
+    },
+    function ({ addUtilities }) {
+      addUtilities({
+        ".section-17-card-3-text-2-gradient": {
+          "background-image":
+            "linear-gradient(96.77deg, rgb(157, 60, 255) -0.96%, rgb(96, 102, 255) 100%)",
+          "background-clip": "text",
+          "-webkit-text-fill-color": "text",
+          color: "transparent",
+        },
+      });
+    },
+    function ({ addUtilities }) {
+      addUtilities({
+        ".section-17-card-2-text-2-gradient": {
+          "background-image":
+            "linear-gradient(96.77deg, rgb(157, 60, 255) -0.96%, rgb(96, 102, 255) 100%)",
+          "background-clip": "text",
+          "-webkit-text-fill-color": "text",
           color: "transparent",
         },
       });

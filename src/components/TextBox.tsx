@@ -1,3 +1,5 @@
+import parse from "html-react-parser";
+
 export function TextBox(props: {
   textColor1: string;
   textColor2: string;
@@ -6,9 +8,9 @@ export function TextBox(props: {
 }) {
   return (
     <span className={`font-bold ${props.textColor1} text-xl`}>
-      <span className={`${props.textColor2}`}>{props.text1}</span>
+      <span className={`${props.textColor2}`}>{parse(props.text1)}</span>
       <br />
-      <span dangerouslySetInnerHTML={{ __html: props.text2 }} />
+      {parse(props.text2)}
     </span>
   );
 }
