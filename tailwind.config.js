@@ -122,7 +122,7 @@ module.exports = {
         "section-15-card-3-background":
           "linear-gradient(106deg, #FBD3BD 1.95%, #E6D6E7 64.26%, #FFC2BE 118.65%)",
         "section-16-card-1-background":
-          "linear-gradient(0deg, #F7F7FA 0%, #F7F7FA 100%), rgba(205, 155, 214, 0.20)",
+          "linear-gradient(0deg, #F7F7FA 0%, #F7F7FA 100%, rgba(205,155,214,0.20))",
         "section-16-card-2-background":
           "linear-gradient(104deg, #C0D0FA -9.4%, #E1D5E9 68.79%, #E9C0EA 105.12%)",
         "section-17-card-3-background":

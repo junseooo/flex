@@ -342,7 +342,7 @@ export function CardContainer({ section }: CardContainerProps) {
       );
     case 12:
       return (
-        <div>
+        <>
           <CardBasis
             backgroundColor={"bg-section-12-card-1-background"}
             text1={"10년 넘게 일하면서<br />이런 연말정산은 처음 봤어요"}
@@ -405,11 +405,11 @@ export function CardContainer({ section }: CardContainerProps) {
             }
             height={400}
           />
-        </div>
+        </>
       );
     case 13:
       return (
-        <div>
+        <>
           <CardBasis
             backgroundColor={"bg-section-13-card-1-background"}
             text1={"사용하던 종이 계약서를<br />구성원 데이터와 연동되는"}
@@ -448,11 +448,11 @@ export function CardContainer({ section }: CardContainerProps) {
             }
             height={400}
           />
-        </div>
+        </>
       );
     case 14:
       return (
-        <div>
+        <>
           <CardBasis
             backgroundColor={"bg-section-14-card-1-background"}
             text1={"구성원 온보딩을 똑똑하게, 자동발송"}
@@ -491,11 +491,11 @@ export function CardContainer({ section }: CardContainerProps) {
             }
             height={400}
           />
-        </div>
+        </>
       );
     case 15:
       return (
-        <div>
+        <>
           <CardBasis
             backgroundColor={"bg-section-15-card-1-background"}
             text1={"평가가 처음인가요?<br />기존 방식을 바꾸고 싶나요?"}
@@ -513,6 +513,7 @@ export function CardContainer({ section }: CardContainerProps) {
             }
             height={350}
             pb={30}
+            width={"full"}
           />
           <CardBasis
             backgroundColor={"bg-section-15-card-2-background"}
@@ -578,11 +579,11 @@ export function CardContainer({ section }: CardContainerProps) {
               </svg>
             }
           />
-        </div>
+        </>
       );
     case 16:
       return (
-        <div>
+        <>
           <CardBasis
             backgroundColor={"bg-section-16-card-1-background"}
             text1={"목표 점검도 손쉽게"}
@@ -617,11 +618,11 @@ export function CardContainer({ section }: CardContainerProps) {
             }
             height={350}
           />
-        </div>
+        </>
       );
     case 17:
       return (
-        <div>
+        <>
           <CardBasis
             backgroundColor={"bg-section-17-card-1-background"}
             text1={"누가 만들어도 멋진<br />우리 회사만의 채용 사이트"}
@@ -630,7 +631,8 @@ export function CardContainer({ section }: CardContainerProps) {
             textColor2={"text-section-17-card-1-text-2"}
             imgContent={
               <svg
-                width="361"
+                className="self-center"
+                width="290"
                 height="79"
                 viewBox="0 0 361 79"
                 fill="none"
@@ -656,6 +658,8 @@ export function CardContainer({ section }: CardContainerProps) {
               </svg>
             }
             height={350}
+            width={"full"}
+            pb={30}
           />
           <CardBasis
             backgroundColor={"bg-section-17-card-2-background"}
@@ -664,7 +668,7 @@ export function CardContainer({ section }: CardContainerProps) {
               "flex 안에서 합격과 인사를 동시에<br />클릭 몇 번으로 손쉽게 연동하세요."
             }
             textColor1={"text-section-17-card-2-text-1"}
-            textColor2={"text-section-17-card-2-text-2"}
+            textColor2={"section-17-card-2-text-2-gradient"}
             imgContent={
               <img
                 data-component="landing-image"
@@ -675,13 +679,15 @@ export function CardContainer({ section }: CardContainerProps) {
               />
             }
             height={350}
+            pr={0}
+            pl={0}
           />
           <CardBasis
             backgroundColor={"bg-section-17-card-3-background"}
             text1={"체크리스트"}
             text2={"놓칠까봐 걱정하지 마세요<br />체크리스트가 다 알려주니까"}
             textColor1={"text-section-17-card-3-text-1"}
-            textColor2={"text-section-17-card-3-text-2"}
+            textColor2={"section-17-card-3-text-2-gradient"}
             imgContent={
               <img
                 data-component="landing-image"
@@ -713,11 +719,11 @@ export function CardContainer({ section }: CardContainerProps) {
             height={350}
             pb={30}
           />
-        </div>
+        </>
       );
     case 18:
       return (
-        <div>
+        <>
           <CardBasis
             backgroundColor={"bg-section-18-card-1-background"}
             text1={"시작이 어려운가요?"}
@@ -797,7 +803,7 @@ export function CardContainer({ section }: CardContainerProps) {
               </svg>
             }
           />
-        </div>
+        </>
       );
   }
   return <></>;

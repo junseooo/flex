@@ -24,7 +24,7 @@ export function CardBasis(props: CardProps) {
       className={`flex flex-col flex-nowrap justify-between items-start ${props.backgroundColor} rounded-20px overflow-hidden`}
       style={{ ...paddingStyle, ...heightStyle, ...gapStyle, ...widthStyle }}
     >
-      {props.extraSvgContent ? props.extraSvgContent : null}
+      {props.extraSvgContent!}
       <TextBox
         textColor1={props.textColor1}
         textColor2={props.textColor2}
