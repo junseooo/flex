@@ -1,4 +1,5 @@
 import { ReactNode } from "react";
+import parse from "html-react-parser";
 
 interface IntroductionProps {
   section: number;
@@ -242,21 +243,21 @@ export function Introduction({ section }: IntroductionProps) {
         "입사와 퇴사, 근태기록과 연동되는 급여정산<br />일일이 취합하지 말고 한눈에 확인하세요.";
       break;
     default:
-      return;
+      break;
   }
   return (
     <div className="flex flex-col flex-nowrap justify-center items-center gap-3 text-center self-center">
       <div className="flex flex-row flex-nowrap justify-center items-center gap-2">
         {informations.svgContent}
-        <span className="font-bold text-section-6-title text-17px tracking-section-6-title">
+        <span className="font-bold text-introduction-title text-17px tracking-section-6-title">
           {informations.titleText}
         </span>
       </div>
-      <span className="font-extrabold text-section-6-second-title text-28px">
-        {informations.titleText}
+      <span className="font-extrabold text-introduction-second-title text-28px">
+        {parse(informations.subTitleText)}
       </span>
-      <span className="font-semibold text-section-6-content text-15px text-center">
-        {informations.subTitleText}
+      <span className="font-semibold text-introduction-content text-15px text-center">
+        {parse(informations.contentText)}
       </span>
       {informations.extraComponents ? informations.extraComponents : null}
     </div>
