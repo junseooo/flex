@@ -24,15 +24,18 @@ module.exports = {
         "11px": ["11px", "1.2em"],
         "12px": ["12px", "21.6px"],
         "13px": ["13px", "19.5px"],
+        "14px": ["14px", "1"],
         "15px": ["15px", "20.25px"],
         "section-3-15px": ["15px", "19.5px"],
         "section-4-15px": ["15px", "2"],
         "17px": ["17px", "23.8px"],
+        "20px": ["20px", "1.2"],
         "28px": ["28px", "33.6px"],
         "section-4-28px": ["28px", "1.2"],
         "section-5-36px": ["36px", "43.2px"],
         "40px": "40px",
         "44px": ["44px", "49px"],
+        "36px": ["36px", "43.2px"],
       },
       fontWeight: {
         550: "550",
@@ -40,6 +43,7 @@ module.exports = {
       width: {
         "22px": "22px",
         "120px": "120px",
+        "140px": "140px",
         "200px": "200px",
         "220px": "220px",
         "280px": "280px",
@@ -59,12 +63,16 @@ module.exports = {
       height: {
         "38px": "38px",
         "42px": "42px",
+        "45px": "45px",
         "55px": "55px",
         "60px": "60px",
         "100px": "100px",
         "255px": "255px",
         "350px": "350px",
         "400px": "400px",
+        "558px": "558px",
+        custom: "max(1200px, 150vh)",
+        "2484px": "2484px",
       },
       borderRadius: {
         "10px": "10px",
@@ -72,16 +80,22 @@ module.exports = {
         "48px": "48px",
       },
       spacing: {
+        "8px": "8px",
         "10px": "10px",
         "18px": "18px",
         "20.5px": "20.5px",
         "25px": "25px",
         "30px": "30px",
         "34px": "34px",
+        "40px": "40px",
         "42px": "42px",
         "60px": "60px",
+        "68px": "68px",
+        "100px": "100px",
         "114px": "114px",
         "115px": "115px",
+        "116px": "116px",
+        "20%": "20%",
         "50%": "50%",
       },
       padding: {
@@ -93,6 +107,7 @@ module.exports = {
         "100px": "100px",
         "110px": "110px",
         "140px": "140px",
+        "220px": "220px",
       },
       backgroundImage: {
         "button-gradient":
@@ -204,6 +219,7 @@ module.exports = {
         "section-18-card-2-text-2": "rgb(36, 42, 48)",
         "section-18-card-3-text-1": "rgb(131, 161, 197)",
         "section-18-card-3-text-2": "rgb(14, 75, 117)",
+        "section-19-part-2-title": "#cdd2d6",
       },
       colors: {
         banner: "#242a30",
@@ -230,6 +246,14 @@ module.exports = {
         "section-17-card-2-background": "#E9EBFF",
         "section-18-card-1-background": "#E9EFFF",
         "section-18-card-2-background": "#F7F7FA",
+        "section-19-part-1-0-background": "rgb(255, 255, 255)",
+        "section-19-part-1-1-background": "rgb(224, 224, 224)",
+        "section-19-part-1-2-background": "rgb(158, 157, 159)",
+        "section-19-part-1-3-background": "rgb(91, 91, 94)",
+        "section-19-part-1-4-background": "rgb(25, 24, 29)",
+        "section-19-part-1-5-background": "rgb(13, 12, 17)",
+        "section-19-part-2-background": "#0D0C11",
+        "section-19-part-2-store": "#242a30",
       },
       boxShadow: {
         "custom-shadow":
@@ -250,6 +274,7 @@ module.exports = {
       },
       translate: {
         "10px": "10px",
+        "20px": "20px",
       },
     },
   },
@@ -303,6 +328,28 @@ module.exports = {
         ".section-17-card-2-text-2-gradient": {
           "background-image":
             "linear-gradient(96.77deg, rgb(157, 60, 255) -0.96%, rgb(96, 102, 255) 100%)",
+          "background-clip": "text",
+          "-webkit-text-fill-color": "text",
+          color: "transparent",
+        },
+      });
+    },
+    function ({ addUtilities }) {
+      addUtilities({
+        ".section-19-text-gradient": {
+          "background-image":
+            "linear-gradient(97deg, rgb(9, 205, 7) 0%, rgb(11, 196, 9) 14%, rgb(6, 200, 187) 88%)",
+          "background-clip": "text",
+          "-webkit-text-fill-color": "text",
+          color: "transparent",
+        },
+      });
+    },
+    function ({ addUtilities }) {
+      addUtilities({
+        ".section-19-part-2-text-gradient": {
+          "background-image":
+            "linear-gradient(97deg, rgb(9, 205, 7) 0%, rgb(11, 196, 9) 14%, rgb(6, 200, 187) 88%)",
           "background-clip": "text",
           "-webkit-text-fill-color": "text",
           color: "transparent",
