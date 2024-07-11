@@ -89,6 +89,7 @@ module.exports = {
         "34px": "34px",
         "40px": "40px",
         "42px": "42px",
+        "50px": "50px",
         "60px": "60px",
         "68px": "68px",
         "100px": "100px",
@@ -146,6 +147,8 @@ module.exports = {
           "linear-gradient(100.41deg,rgba(255, 249, 227, 0.2) 0%,#f7f8e4 100%)",
         "section-18-card-3-background":
           "linear-gradient(177deg, #F4F9FF -44.02%, #DCF2FA 165.08%)",
+        "section-20-button-background":
+          "linear-gradient(101.83deg, #7f87e0 -13.2%, #2649ca -13.19%, #6a76df 46.63%, #32b0f7 107.09%)",
       },
       textColor: {
         "banner-notice": "rgb(0, 153, 255)",
@@ -254,6 +257,7 @@ module.exports = {
         "section-19-part-1-5-background": "rgb(13, 12, 17)",
         "section-19-part-2-background": "#0D0C11",
         "section-19-part-2-store": "#242a30",
+        "section-20-background": "#0D0C11",
       },
       boxShadow: {
         "custom-shadow":
@@ -275,6 +279,10 @@ module.exports = {
       translate: {
         "10px": "10px",
         "20px": "20px",
+      },
+      boxShadow: {
+        "section-20-button":
+          "0px 2px 6px rgba(0, 0, 0, 0.02), inset 0px -1px 0px rgba(0, 0, 0, 0.06), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08)",
       },
     },
   },
@@ -350,6 +358,17 @@ module.exports = {
         ".section-19-part-2-text-gradient": {
           "background-image":
             "linear-gradient(97deg, rgb(9, 205, 7) 0%, rgb(11, 196, 9) 14%, rgb(6, 200, 187) 88%)",
+          "background-clip": "text",
+          "-webkit-text-fill-color": "text",
+          color: "transparent",
+        },
+      });
+    },
+    function ({ addUtilities }) {
+      addUtilities({
+        ".section-20-text-gradient": {
+          "background-image":
+            "linear-gradient(96.77deg, rgb(157, 60, 255) -0.96%, rgb(96, 102, 255) 100%)",
           "background-clip": "text",
           "-webkit-text-fill-color": "text",
           color: "transparent",

@@ -67,7 +67,7 @@ export function Section19() {
   return (
     <div className="block">
       <section className="block pt-220px">
-        <div className="flex flex-col flex-nowrap justify-start items-stretch gap-116px bg-section-19-part-1-5-background">
+        <div className="flex flex-col flex-nowrap justify-start items-stretch gap-116px bg-section-19-part-2-background">
           <div
             className={`flex flex-row flex-nowrap justify-center items-center ${bgColor} relative h-custom`}
           >
