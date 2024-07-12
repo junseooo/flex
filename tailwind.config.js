@@ -262,6 +262,8 @@ module.exports = {
       boxShadow: {
         "custom-shadow":
           "rgba(0, 0, 0, 0.02) 0px 2px 6px, rgba(0, 0, 0, 0.06) 0px -1px 0px inset, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px inset",
+        "section-20-button":
+          "0px 2px 6px rgba(0, 0, 0, 0.02), inset 0px -1px 0px rgba(0, 0, 0, 0.06), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08)",
       },
       flex: {
         "0-0-30%": "0 0 30%",
@@ -279,10 +281,6 @@ module.exports = {
       translate: {
         "10px": "10px",
         "20px": "20px",
-      },
-      boxShadow: {
-        "section-20-button":
-          "0px 2px 6px rgba(0, 0, 0, 0.02), inset 0px -1px 0px rgba(0, 0, 0, 0.06), inset 0px 0px 0px 1px rgba(0, 0, 0, 0.08)",
       },
     },
   },
